@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/iv_recylerListRow_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/backgrounds/scenic[5]"
+            android:contentDescription="@string/photo" />
+
+        <TextView
+            android:id="@+id/tv_recylerListRow_author_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:text="deneme" />
+    </FrameLayout>
+</layout>
