@@ -6,9 +6,9 @@
 </br>
 
 <p align="center">
-<img src="/splash.png"  align="left" width="32%"/>
-  <img src="/photolist.png"  align="center" width="32%"/>
-  <img src="/photodetail.png" align="right" width="32%"/>
+<img src="/splash.png" width="32%"/>
+  <img src="/photolist.png" width="32%"/>
+  <img src="/photodetail.png"  width="32%"/>
 </p>
 
 ## Download
