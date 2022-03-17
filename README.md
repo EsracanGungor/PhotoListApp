@@ -13,8 +13,8 @@
   </tr>
   <tr>
     <td><img src="/previews/splash.png" ></td>
-    <td><img src="/photolist.png" ></td>
-    <td><img src="/photodetail.png" ></td>
+    <td><img src="/previews/photolist.png" ></td>
+    <td><img src="/previews/photodetail.png" ></td>
   </tr>
  </table>
  
