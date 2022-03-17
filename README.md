@@ -12,7 +12,7 @@
      <td>Photo Detail Page</td>
   </tr>
   <tr>
-    <td><img src="/splash.png" ></td>
+    <td><img src="/previews/splash.png" ></td>
     <td><img src="/photolist.png" ></td>
     <td><img src="/photodetail.png" ></td>
   </tr>
