@@ -5,30 +5,39 @@
 </p>
 </br>
 
-<p align="center">
-<img src="/splash.png" width="32%"/>
-  <img src="/photolist.png" width="32%"/>
-  <img src="/photodetail.png"  width="32%"/>
-</p>
+<table>
+  <tr>
+    <td>Splash Screen Page</td>
+     <td>Photo List Page</td>
+     <td>Photo Detail Page</td>
+  </tr>
+  <tr>
+    <td><img src="/splash.png" ></td>
+    <td><img src="/photolist.png" ></td>
+    <td><img src="/photodetail.png" ></td>
+  </tr>
+ </table>
+ 
+## Functionality
+The app's functionality includes:
+1. Fetch a list of images from picsum photos api (https://picsum.photos/) and shows them in RecyclerView.
+2. When an image is selected from the RecyclerView, the author of the image will load the image along with its height information.
+3. The app supports SwipeRefreshLayout to refresh RecyclerView content from remote source.
 
-## Download
-Go to the [Releases](https://github.com/EsracanGungor/PhotoListApp/releases) to download the latest APK.
-
-<img src="/preview.gif" align="right" width="32%"/>
-
-## Tech stack & Open-source libraries
+## Tech Stack & Open-source Libraries
 - Minimum SDK level 21
-- [Kotlin](https://kotlinlang.org/) based, [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) for asynchronous.
-- Jetpack
-  - Lifecycle - Observe Android lifecycles and handle UI states upon the lifecycle changes.
-  - ViewModel - Manages UI-related data holder and lifecycle aware. Allows data to survive configuration changes such as screen rotations.
-  - DataBinding - Binds UI components in your layouts to data sources in your app using a declarative format rather than programmatically.
-- Architecture
-  - MVVM Architecture (View - DataBinding - ViewModel - Model)
-- [Retrofit2](https://github.com/square/retrofit) - Construct the REST APIs.
-- [Coil](https://github.com/coil-kt/coil) - Loading images from network.
+- [Kotlin](https://kotlinlang.org/), [Android appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat), [KTX](https://developer.android.com/kotlin/ktx), [Constraint layout](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout), [Material Support](https://material.io/develop/android/docs/getting-started).
+- [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) for asynchronous operations and Network call .
+- [Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) for observe Android lifecycles and handle UI states upon the lifecycle changes.
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) for manage UI-related data holder and lifecycle aware. Allows data to survive configuration changes such as screen rotations.
+- [DataBinding](https://developer.android.com/topic/libraries/data-binding) for bind UI components in your layouts to data sources in your app using a declarative format rather than programmatically.
+- [Android View Binding](https://developer.android.com/topic/libraries/view-binding)
+- [Retrofit2](https://github.com/square/retrofit) - for REST API communication.
+- [Coil](https://github.com/coil-kt/coil) - for loading images from network.
+- [Swipe Refresh Layout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout) for refresh RecyclerView content.
 
 ## Architecture
-PhotoListApp is based on the MVVM architecture pattern.
+PhotoListApp is based on the clean architecture with MVVM(Model - View - View Model) design pattern.
 
-![architecture](https://user-images.githubusercontent.com/24237865/77502018-f7d36000-6e9c-11ea-92b0-1097240c8689.png)
+## Download
+Go to the [Releases](https://github.com/EsracanGungor/PhotoListApp/releases) to download the APK.
