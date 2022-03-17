@@ -35,6 +35,7 @@ The app's functionality includes:
 - [Retrofit2](https://github.com/square/retrofit) - for REST API communication.
 - [Coil](https://github.com/coil-kt/coil) - for loading images from network.
 - [Swipe Refresh Layout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout) for refresh RecyclerView content.
+- [Navigation](https://developer.android.com/guide/navigation)
 
 ## Architecture
 PhotoListApp is based on the clean architecture with MVVM(Model - View - View Model) design pattern.
