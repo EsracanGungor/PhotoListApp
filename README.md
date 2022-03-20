@@ -32,8 +32,8 @@ The app's functionality includes:
 - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) for manage UI-related data holder and lifecycle aware. Allows data to survive configuration changes such as screen rotations.
 - [DataBinding](https://developer.android.com/topic/libraries/data-binding) for bind UI components in your layouts to data sources in your app using a declarative format rather than programmatically.
 - [Android View Binding](https://developer.android.com/topic/libraries/view-binding)
-- [Retrofit2](https://github.com/square/retrofit) - for REST API communication.
-- [Coil](https://github.com/coil-kt/coil) - for loading images from network.
+- [Retrofit2](https://github.com/square/retrofit) for REST API communication.
+- [Coil](https://github.com/coil-kt/coil) for loading images from network.
 - [Swipe Refresh Layout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout) for refresh RecyclerView content.
 - [Navigation](https://developer.android.com/guide/navigation)
 
